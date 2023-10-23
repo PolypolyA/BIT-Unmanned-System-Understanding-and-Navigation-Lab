@@ -40,20 +40,85 @@
 ### 实验结果
 
 - 本文提出了一个用于数字孪生无人船深度强化学习算法的模拟训练平台。该平台解决了USV的理想化环境和简化的点质量模型导致的算法模型的性能较差和泛化能力有限的问题。模拟训练平台采用模块化设计理念，每个模块都表现出低耦合性，以便于未来的维护和升级。
+
 - 在运动模拟实验中，USV在该平台上的运动数据与真实世界导航的偏差小于10%。这展示了反映客观运动模式的高度运动模拟精度。构建的虚拟环境和模拟传感器提供了与真实世界场景非常相似的数据，支持了模拟的准确性。在真实世界的部署过程中，各种算法的成功率与在虚拟仿真环境中获得的结果有很强的相关性。这表明，使用该平台在非理想条件下训练的算法可以在真实世界的场景中提供可比较的结果，从而展示出强大的泛化能力。
 
 - 除了模拟USV运动，该平台还便于算法训练和验证。因此，为智能USV算法的研究和泛化性能的测试提供了一个稳健的基准。该平台的预期用户群包括无人水面舰艇领域的广泛开发人员。此外，它在最大限度地减少海上调试工作量、增强算法适应性和加快算法开发周期方面发挥着至关重要的作用。
 
-![](../imagepaper/2_1.PNG)
+- ![image-20231023150021764](Readme.assets/image-20231023150021764.png)
 
-![](../imagepaper/2_2.PNG)
+  ![image-20231023150050802](Readme.assets/image-20231023150050802.png)
 
-![](../imagepaper/2_3.PNG)
+  ![image-20231023150113554](Readme.assets/image-20231023150113554.png)
 
-![](../imagepaper/2_4.PNG)
+  ![image-20231023150126264](Readme.assets/image-20231023150126264.png)
 
-![](../imagepaper/2_5.PNG)
+  ![image-20231023150135688](Readme.assets/image-20231023150135688.png)
+
+![image-20231023150158490](Readme.assets/image-20231023150158490.png)
+
+![image-20231023150213856](Readme.assets/image-20231023150213856.png)
+
+![image-20231023150235649](Readme.assets/image-20231023150235649.png)
+
+![image-20231023150252147](Readme.assets/image-20231023150252147.png)
 
 ### 引用
 
-引用格式xxx
+[1] Z. Liu, Y.Zhang, X.Yu and Y.chi, “Unmanned surface vehicles: An overview of developments and challenges,” *Annu.* *Rev.* *Control*, vol.41, pp. 71-93, 2016.
+
+[2] J. Tang, S. Lao, and Y. Wan, “Systematic review of collision-avoidanceapproaches for unmanned aerial vehicles,” *IEEE Syst. J.*,vol. 16, no. 3, pp. 4356–4367, 2021.
+
+[3] X. Zhao and S. Ding, “A review of deep reinforcement learning,”*Computer science*, vol. 45, no. 7, pp. 1–6, 2018.
+
+[4] J. Yan, Q. Zhang, and X. Hu, “Review of path planning techniques based on reinforcement learning,” *Computer Engineering*, vol. 47, no. 10, pp. 16–25, 2021.
+
+[5] S. Chen, Y. Chen, S. Zhang, and N. Zheng, “A novel integrated simulation and testing platform for self-driving cars with hardware in the loop,” *IEEE Transactions on Intelligent Vehicles*, vol. 4, no. 3, pp. 425– 436, 2019.
+
+[6] L. Zheng, J. Yang, H. Cai, M. Zhou, W. Zhang, J. Wang, and Y. Yu, “Magent: A many-agent reinforcement learning platform for artificial collective intelligence,” in *Proceedings of the AAAI conference on artificial intelligence*, vol. 32, 2018.
+
+[7] K. Cobbe, O. Klimov, C. Hesse, T. Kim, and J. Schulman, “Quantifying generalization in reinforcement learning,” in *International Conference on Machine Learning*, pp. 1282–1289, PMLR, 2019.
+
+[8] X. Xiao, Z. Xu, Z. Wang, Y. Song, G. Warnell, P. Stone, T. Zhang, S. Ravi, G. Wang, H. Karnan, *et al*, “Autonomous ground navigation in highly constrained spaces: Lessons learned from the benchmark autonomous robot navigation challenge at icra 2022 [competitions],” *IEEE Robotics & Automation Magazine*, vol. 29, no. 4, pp. 148–156, 2022.
+
+[9] Z. Xu, B. Liu, X. Xiao, A. Nair, and P. Stone, “Benchmarking reinforcement learning techniques for autonomous navigation,” in *2023 IEEE International Conference on Robotics and Automation (ICRA)*, pp. 9224–9230, IEEE, 2023.
+
+[10] T. H.-J. Uhlemann, C. Lehmann, and R. Steinhilper, “The digital twin: Realizing the cyber-physical production system for industry 4.0,” *Procedia Cirp*, vol. 61, pp. 335–340, 2017.
+
+[11] L. Fan, Y. Zhu, J. Zhu, Z. Liu, O. Zeng, A. Gupta, J. Creus-Costa, S. Savarese, and L. Fei-Fei, “Surreal: Open-source reinforcement learning framework and robot manipulation benchmark,” in *Conference on Robot Learning*, pp. 767–782, PMLR, 2018.
+
+[12] S.-Y. Shin, Y.-W. Kang, and Y.-G. Kim, “Obstacle avoidance drone by deep reinforcement learning and its racing with human pilot,” *Applied sciences*, vol. 9, no. 24, p. 5571, 2019.
+
+[13] A. Rafiei, A. O. Fasakhodi, and F. Hajati, “Pedestrian collision avoidance using deep reinforcement learning,” *International journal of automotive technology*, vol. 23, no. 3, pp. 613–622, 2022.
+
+[14] R. Cimurs, I. H. Suh, and J. H. Lee, “Goal-driven autonomous exploration through deep reinforcement learning,” *IEEE Robotics and Automation Letters*, vol. 7, no. 2, pp. 730–737, 2021.
+
+[15] M. Kirtas, K. Tsampazis, N. Passalis, and A. Tefas, “Deepbots: A webots-based deep reinforcement learning framework for robotics,” in *Artificial Intelligence Applications and Innovations: 16th IFIP WG 12.5 International Conference*, AIAI 2020, Neos Marmaras, Greece, June 5– 7, 2020, Proceedings, Part II 16, pp. 64–75, Springer, 2020.
+
+[16] H. Yuan, J. Ni, and J. Hu, “A centralised training algorithm with d3qn for scalable regular unmanned ground vehicle formation maintenance,” *Iet.* *Intell.* *Transp.* *Sy**.*, vol. 15, no. 4, pp. 562–572, 2021.
+
+[17] Y. Yang, Z. Hou, H. Chen, and P. Lu, “Drl-based path planner and its application in real quadrotor with lidar,” *J.* *Intell.* *Robot.* *Syst**.*, vol. 107, no. 3, p. 38, 2023.
+
+[18] C. Fu, X. Xu, Y. Zhang, Y. Lyu, Y. Xia, Z. Zhou, and W. Wu, “Memory-enhanced deep reinforcement learning for uav navigation in 3d environment,” *Neural.* *Comput.* *Appl**.*, vol. 34, no. 17, pp. 14599–14607, 2022.
+
+[19] X. Xu, Y. Lu, X. Liu, and W. Zhang, “Intelligent collision avoidance algorithms for usvs via deep reinforcement learning under colregs,” *Ocean.* *Eng**.*, vol. 217, p. 107704, 2020.
+
+[20] X. Wu, H. Chen, C. Chen, M. Zhong, S. Xie, Y. Guo, and H. Fujita, “The autonomous navigation and obstacle avoidance for usvs with anoa deep reinforcement learning method,” *Knowl-based.* *Syst**.*, vol. 196, p. 105201, 2020.
+
+[21] B. Sangiovanni, G. P. Incremona, M. Piastra, and A. Ferrara, “Selfconfiguring robot path planning with obstacle avoidance via deep reinforcement learning,” *IEEE Contr. Syst. Lett.*, vol. 5, no. 2, pp. 397–402, 2020.
+
+[22] P. Wang, R. Liu, X. Tian, X. Zhang, L. Qiao, and Y. Wang, “Obstacle avoidance for environmentally-driven usvs based on deep reinforcement learning in large-scale uncertain environments,” *Ocean.* *Eng**.*, vol. 270, p. 113670, 2023.
+
+[23] R. Song, Y. Liu, and R. Bucknall, “Smoothed a* algorithm for practicalunmanned surface vehicle path planning,” *Appl.* *Ocean.* *Res**.*, vol. 83, pp. 9–20, 2019.
+
+[24] R. Sawada, K. Sato, and T. Majima, “Automatic ship collision avoidance using deep reinforcement learning with lstm in continuous action spaces,” *J.Mar.Sci.Tech-japan**.*, vol. 26, pp. 509– 524, 2021.
+
+[25] M. Paravisi, D. H. Santos, V. Jorge, G. Heck, L. M. Gonc¸alves, and A. Amory, “Unmanned surface vehicle simulator with realistic environmental disturbances,” *Sensors-basel**.*, vol. 19, no. 5, p. 1068, 2019.
+
+[26] A. Dosovitskiy, G. Ros, F. Codevilla, A. Lopez, and V. Koltun, “Carla: An open urban driving simulator,” in *Conference on robot learning* , pp. 1–16, PMLR, 2017.
+
+[27] S. Shah, D. Dey, C. Lovett, and A. Kapoor, “Airsim: High-fidelity visual and physical simulation for autonomous vehicles,” in *Field and Service Robotics: Results of the 11th International Conference*, pp. 621–635, Springer, 2018.
+
+[28] S.-K. Ueng, D. Lin, and C.-H. Liu, “A ship motion simulation system,” *Virtual**.**Real-london**.*, vol. 12, pp. 65–76, 2008.
+
+[29] K. Benedict, M. Kirchhoff, M. Gluch, S. Fischer, and M. Schaub, “Simulation augmented manoeuvring design and monitoring–a new method for advanced ship handling,” *TransNav**.*, vol. 8, no. 1, pp. 131–141, 2014
